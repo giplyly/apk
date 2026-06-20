@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>GIPARSTORE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header Atas -->
+<div class="header">
+    <i class="icon-menu"></i>
+    <h1>GIPARSTORE</h1>
+    <div class="header-icons">
+        <i class="icon-refresh"></i>
+        <i class="icon-mail"></i>
+    </div>
+</div>
+
+<!-- Konten Utama -->
+<div class="container">
+
+    <!-- Kartu Profil -->
+    <div class="card profile-card">
+        <div class="profile-left">
+            <div class="avatar">👤</div>
+            <div>
+                <h2>Hai, Devan</h2>
+                <p><span class="badge">PENGGUNA</span> Versi 1.0.0</p>
+            </div>
+        </div>
+        <div class="row-2">
+            <div class="info-box">
+                <i class="icon-phone"></i>
+                <span>Status HP</span>
+                <i class="icon-check"></i>
+            </div>
+            <div class="info-box">
+                <i class="icon-signal"></i>
+                <span>Jaringan</span>
+                <i class="icon-wifi"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tombol Utama -->
+    <div class="row-3">
+        <button class="btn btn-green" onclick="tesNotif()">
+            <i class="icon-bug"></i>
+            <span>TES NOTIFIKASI</span>
+        </button>
+        <button class="btn btn-green" onclick="tesJaringan()">
+            <i class="icon-group"></i>
+            <span>TES JARINGAN</span>
+        </button>
+        <button class="btn btn-orange" onclick="bukaAlat()">
+            <i class="icon-tools"></i>
+            <span>ALAT</span>
+        </button>
+    </div>
+
+    <!-- Bagian Menu -->
+    <div class="section">
+        <h3 class="section-title">FITUR UTAMA</h3>
+        <div class="grid-2">
+            <div class="menu-card" onclick="tesSuara()">
+                <div class="menu-icon blue">🎵</div>
+                <div class="menu-text">
+                    <h4>TES SUARA</h4>
+                    <p>Cek speaker & getar</p>
+                </div>
+                <i class="icon-arrow"></i>
+            </div>
+            <div class="menu-card" onclick="tesLayar()">
+                <div class="menu-icon blue">📡</div>
+                <div class="menu-text">
+                    <h4>TES LAYAR</h4>
+                    <p>Cek warna & sentuh</p>
+                </div>
+                <i class="icon-arrow"></i>
+            </div>
+            <div class="menu-card" onclick="infoPerangkat()">
+                <div class="menu-icon green">👥</div>
+                <div class="menu-text">
+                    <h4>INFO HP</h4>
+                    <p>Spesifikasi sistem</p>
+                </div>
+                <i class="icon-arrow"></i>
+            </div>
+            <div class="menu-card" onclick="kirimTesDiri()">
+                <div class="menu-icon orange">💬</div>
+                <div class="menu-text">
+                    <h4>TES PESAN DIRI</h4>
+                    <p>Hanya ke nomor sendiri</p>
+                </div>
+                <i class="icon-arrow"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Info Tambahan -->
+    <div class="grid-2">
+        <div class="card small-card pink">
+            <div class="menu-icon small">❤️</div>
+            <div>
+                <h4>AMAN</h4>
+                <p>Hanya untuk tes sendiri</p>
+            </div>
+        </div>
+        <div class="card small-card purple">
+            <div class="menu-icon small">🎲</div>
+            <div>
+                <h4>GIPARSTORE</h4>
+                <p>Versi 1.0.0</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Menu -->
+    <div class="section">
+        <h3 class="section-title">MENU CEPAT</h3>
+        <div class="row-4">
+            <button class="quick-btn" onclick="tesNotif()">📢</button>
+            <button class="quick-btn" onclick="tesJaringan()">💬</button>
+            <button class="quick-btn" onclick="tesSuara()">🎵</button>
+            <button class="quick-btn" onclick="bukaAlat()">⚙️</button>
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+  </html>
+          
